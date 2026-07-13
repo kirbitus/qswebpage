@@ -1,3 +1,3 @@
 # quicksalad website
-https://kirbitus.github.io/qswebpage/ \n
+https://kirbitus.github.io/qswebpage/
 quicksalad website
