@@ -1,0 +1,226 @@
+body
+{
+    display: flex;
+    font-family: 'Geist Pixel', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    opacity: 1;
+    background-color: #11111f;
+    background-image:  linear-gradient(#1e1e2e 2px, transparent 2px), linear-gradient(90deg, #1e1e2e 2px, transparent 2px), linear-gradient(#1e1e2e 1px, transparent 1px), linear-gradient(90deg, #1e1e2e 1px, #11111f 1px);
+    background-size: 75px 75px, 75px 75px, 15px 15px, 15px 15px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+main
+{
+    flex:1
+}
+
+/* header/row */
+
+.headbar
+{
+    background-color: #0000003d;
+    backdrop-filter: blur(2.5px);
+    
+}
+
+.unifiednavigationBar
+{   
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.rowLogo
+{
+    margin: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.iconLogo
+{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 6px;
+    margin-right: 0px;
+}
+
+.textLogo
+{
+    color: #ffffff;
+    margin: 0;
+    scale: 0.9;
+}
+
+.nav
+{
+    margin-left: 325px;
+    padding: 0;
+}
+
+.nav a
+{
+    display: inline-block;
+    color: #ffffff;
+    padding: 0 6px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav a:last-child
+{
+    border-right: none;
+}
+
+.nav a:hover
+{
+    color: #ffffff71;
+    transform: scale(1.05)
+}
+
+
+/* main */
+
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* downloads shit */
+
+.downloadBox
+{   
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 850px;
+    background: #0000003d;
+    backdrop-filter: blur(2.5px);
+    padding: 0 15px 15px 15px;
+    text-align: left;
+    
+}
+
+.downloadtext
+{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 6px;
+}
+
+
+.osBox
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    display: block;
+    border-radius: 15px;
+    width: max-content;
+    padding: 1px 0px 15px 15px;
+    background-color: #ffffff07;
+    
+}
+
+.ostext
+{
+    color: #ffffff;
+    padding: 0;
+}
+
+#osLogo
+{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+}
+
+.downloadRow
+{
+    display: flex;
+    align-items: center;
+}
+
+/* install shit */
+
+.installInfo
+{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+
+.installInfo a
+{
+    display: inline-block;
+    color: #07a4ed;
+    padding: 0 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    transition: transform 0.2s ease, color 0.2s ease;
+    text-decoration: none;
+}
+
+.installInfo a:hover
+{
+    color: #07a4ed7a;
+    transform: scale(1.05)
+
+}
+
+.installtext
+{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.linkinstall
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.linkicon
+{
+    width: 14px;
+    height: 14px;
+    transform: translateY(3px); 
+}
+
+/* footer */
+
+.crtext
+{
+    display: flex;
+    justify-content: center;
+    color: #ffffff96;
+    scale: 0.8;
+}
+
+
+@view-transition
+{
+    navigation: auto;
+}
